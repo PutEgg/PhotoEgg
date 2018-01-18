@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.putegg.app.photoegg.test" >
+    package="org.putegg.app.myapplication.test" >
 
     <uses-sdk
         android:minSdkVersion="15"
@@ -10,8 +10,8 @@
         android:name="android.support.test.runner.AndroidJUnitRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
-        android:label="Tests for org.putegg.app.photoegg"
-        android:targetPackage="org.putegg.app.photoegg" />
+        android:label="Tests for org.putegg.app.myapplication"
+        android:targetPackage="org.putegg.app.myapplication" />
 
     <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />
