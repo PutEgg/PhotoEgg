@@ -1,4 +1,4 @@
-package org.putegg.app.myapplication.database;
+package org.putegg.app.PhotoEgg.database;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

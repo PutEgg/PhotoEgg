@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.putegg.app.myapplication">
+    package="org.putegg.app.PhotoEgg">
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,7 +10,7 @@
         android:theme="@style/AppTheme"
 
         >
-        <activity android:name=".view.login">
+        <activity android:name="org.putegg.app.PhotoEgg.view.login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,7 +18,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".view.register"
+        <activity android:name="org.putegg.app.PhotoEgg.view.register"
             android:theme="@style/Theme.AppCompat.Light.Dialog">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -27,7 +27,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".view.hub">
+        <activity android:name="org.putegg.app.PhotoEgg.view.hub">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 

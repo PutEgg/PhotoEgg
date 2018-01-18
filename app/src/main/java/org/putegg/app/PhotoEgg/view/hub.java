@@ -1,4 +1,4 @@
-package org.putegg.app.myapplication.view;
+package org.putegg.app.PhotoEgg.view;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -6,8 +6,7 @@ import android.text.Html;
 import android.text.method.LinkMovementMethod;
 import android.widget.TextView;
 
-import org.putegg.app.myapplication.view.login;
-import org.putegg.app.myapplication.R;
+import org.putegg.app.PhotoEgg.R;
 
 /**
  * Created by PutEgg on 2018/1/17.

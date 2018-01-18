@@ -1,5 +1,5 @@
-package org.putegg.app.myapplication.view;
-import org.putegg.app.myapplication.database.dbadapter;
+package org.putegg.app.PhotoEgg.view;
+import org.putegg.app.PhotoEgg.database.dbadapter;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -8,13 +8,12 @@ import android.database.Cursor;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import org.putegg.app.myapplication.R;
+import org.putegg.app.PhotoEgg.R;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

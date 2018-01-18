@@ -1,8 +1,7 @@
-package org.putegg.app.myapplication.view;
+package org.putegg.app.PhotoEgg.view;
 
 
 import android.app.Activity;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.database.Cursor;
@@ -12,8 +11,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import org.putegg.app.myapplication.R;
-import org.putegg.app.myapplication.database.dbadapter;
+import org.putegg.app.PhotoEgg.R;
+import org.putegg.app.PhotoEgg.database.dbadapter;
 
 /**
  * Created PutEgg on 2018/1/17.
