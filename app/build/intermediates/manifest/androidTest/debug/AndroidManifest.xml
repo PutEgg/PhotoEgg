@@ -10,8 +10,8 @@
         android:name="android.support.test.runner.AndroidJUnitRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
-        android:label="Tests for org.putegg.app.myapplication"
-        android:targetPackage="org.putegg.app.myapplication" />
+        android:label="Tests for org.putegg.app.PhotoEgg"
+        android:targetPackage="org.putegg.app.PhotoEgg" />
 
     <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />
