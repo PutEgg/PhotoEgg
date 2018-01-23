@@ -1,25 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\hp\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\6fc8c6c2979af1593e225e5926003a7a\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "112",
-                        "endOffsets": "163"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\hp\\AndroidStudioProjects\\PhotoEgg\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\670f0a7468eadf9de074eadb39819812\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\222de888e6b33ff6ee12e79ac933d47f\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,11 +1,11 @@
 apply plugin: 'com.android.application'
 android {
-    compileSdkVersion rootProject.ext.compileSdkVersion
+    compileSdkVersion 25
     buildToolsVersion rootProject.ext.buildToolsVersion
     defaultConfig {
         applicationId "com.example.previewpicture"
-        minSdkVersion rootProject.ext.minSdkVersion
-        targetSdkVersion rootProject.ext.targetSdkVersion
+        minSdkVersion 22
+        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
         vectorDrawables.useSupportLibrary = true
@@ -21,7 +21,13 @@ android {
         abortOnError false
     }
     dexOptions {
-        incremental true
+        incremental false
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+    productFlavors {
     }
 }
 
@@ -38,12 +44,12 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.3.1'
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:recyclerview-v7:25.3.1'
     compile 'com.github.bumptech.glide:glide:3.7.0'
     compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30'
+    compile 'com.android.support:recyclerview-v7:25.4.0'
+    compile 'com.android.support:cardview-v7:25.4.0'
     compile project(':ImagePreview')
     compile 'com.simplepeng.library:transformslibrary:1.0.0'
     compile 'com.jaeger.ninegridimageview:library:1.1.0'
     // compile 'com.ycjiang:ImagePreview:2.0.1'
-
 }

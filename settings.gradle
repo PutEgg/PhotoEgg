@@ -1,1 +1,1 @@
-include ':app', ':sample', ':photopicker', ':browser', ':ImagePreview'
+include ':app', ':sample', ':photopicker', ':browser', ':ImagePreview', ':PVsample', ':photoview'

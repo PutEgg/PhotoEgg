@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="15"
+        android:minSdkVersion="16"
         android:targetSdkVersion="26" />
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -48,6 +48,12 @@
         <meta-data
             android:name="android.support.VERSION"
             android:value="26.1.0" />
+
+        <activity
+            android:name="com.previewlibrary.GPreviewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
         <meta-data
             android:name="android.arch.lifecycle.VERSION"
             android:value="27.0.0-SNAPSHOT" />

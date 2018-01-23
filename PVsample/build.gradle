@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion "26.0.2"
+
+    defaultConfig {
+        applicationId "uk.co.senab.photoview.sample"
+        minSdkVersion 16
+        targetSdkVersion 27
+        versionCode 100
+        versionName "1.0"
+    }
+    lintOptions {
+        abortOnError false
+    }
+    dexOptions {
+        incremental false
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:26.1.0'
+    compile 'com.android.support:design:26.1.0'
+    compile 'com.android.support:recyclerview-v7:25.4.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile project(':photoview')
+}
