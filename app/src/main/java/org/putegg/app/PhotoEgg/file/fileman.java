@@ -24,11 +24,13 @@ public class fileman {
             f.mkdirs();
     }
 
+        //获取用户个人根目录绝对路径
     public String getUserHomeString(String uname){
         String a ="/data/data/org.putegg.app.PhotoEgg/users/"+uname+"/";
         return a;
     }
 
+        //创建测试文件
     public void createFile(String userdir,String filename) throws IOException {
         File file = new File(userdir,filename);
         file.createNewFile();
