@@ -14,10 +14,14 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import org.putegg.app.PhotoEgg.R;
+import org.putegg.app.PhotoEgg.photo.ZoomMediaLoader;
+import org.putegg.app.PhotoEgg.photo.TestImageLoader;
 
 import java.io.File;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+
+
 
 public class login extends AppCompatActivity {
 
@@ -46,9 +50,6 @@ public class login extends AppCompatActivity {
 
 
         doThing();
-        File f = getFilesDir();
-        String a = f.getPath();
-        bugpoint(a);
 
     }
 

@@ -16,7 +16,6 @@ import android.widget.TextView;
 
 import org.putegg.app.PhotoEgg.IThumbViewInfo;
 import org.putegg.app.PhotoEgg.photo.BezierBannerView;
-import org.putegg.app.PhotoEgg.photo.PhotoViewPager;
 import org.putegg.app.PhotoEgg.photo.SmoothImageView;
 
 import org.putegg.app.PhotoEgg.R;

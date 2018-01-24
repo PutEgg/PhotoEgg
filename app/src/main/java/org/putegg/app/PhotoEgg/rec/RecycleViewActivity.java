@@ -33,11 +33,13 @@ public class RecycleViewActivity extends Activity {
         List<String> urls = ImageUrlConfig.getUrls();
         for (int i = 0; i < 30; i++) {
             mThumbViewInfoList.add(new UserViewInfo(urls.get(i)));
+            System.out.println(mThumbViewInfoList.get(i).toString());
         }
         mRecyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         mGridLayoutManager = new GridLayoutManager(this,2);
         mRecyclerView.setLayoutManager(mGridLayoutManager);
         mRecyclerView.setHasFixedSize(true);
+
         MyBaseQuickAdapter adapter=new MyBaseQuickAdapter(this);
         adapter.addData(mThumbViewInfoList);
         mRecyclerView.setAdapter(adapter);

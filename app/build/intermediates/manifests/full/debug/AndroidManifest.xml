@@ -11,8 +11,10 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+        android:name="org.putegg.app.PhotoEgg.file.App"
         android:allowBackup="true"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
@@ -38,6 +40,25 @@
             </intent-filter>
         </activity>
         <activity android:name="org.putegg.app.PhotoEgg.view.hub" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="org.putegg.app.PhotoEgg.rec.RecycleViewActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="org.putegg.app.PhotoEgg.photo.MyGlideModule"
+            android:value="GlideModule" />
+
+        <activity android:name="org.putegg.app.PhotoEgg.photo.GPreviewActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 

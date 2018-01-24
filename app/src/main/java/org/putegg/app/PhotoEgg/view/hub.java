@@ -1,9 +1,12 @@
 package org.putegg.app.PhotoEgg.view;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.Html;
 import android.text.method.LinkMovementMethod;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -19,6 +22,7 @@ import java.io.StringReader;
 
 public class hub extends Activity{
     private TextView banner;
+    private Button go;
 
     @Override
     public void onCreate(Bundle savedInstanceState){
@@ -27,6 +31,7 @@ public class hub extends Activity{
 
         setContentView(R.layout.activity_hub);
 
+        go = (Button)findViewById(R.id.go);
         banner = (TextView)findViewById(R.id.ojbk);
         String user = login.nowUser;
         banner.setText(Html.fromHtml(user));
@@ -42,12 +47,16 @@ public class hub extends Activity{
         else if (userhome.exists()){
             bugpoint("用户文件夹已找到");
         }
-        try {
-            fileman.createFile(userHomeString,user+".txt");
-            bugpoint("成功创建测试文件");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+
+
+        go.setOnClickListener(new Button.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(view.getContext(),org.putegg.app.PhotoEgg.rec.RecycleViewActivity.class);
+                startActivity(i);
+            }
+
+        });
 
 
     }

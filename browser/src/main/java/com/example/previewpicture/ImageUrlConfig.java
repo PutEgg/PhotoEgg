@@ -61,7 +61,7 @@ public final class ImageUrlConfig {
         sUrls.add("http://ac-QYgvX1CC.clouddn.com/de13315600ba1cff.jpg");
         sUrls.add("http://ac-QYgvX1CC.clouddn.com/9ec4bc44bfaf07ed.jpg");
         sUrls.add("http://ac-QYgvX1CC.clouddn.com/fa85037f97e8191f.jpg");
-        sUrls.add("ttp://ac-QYgvX1CC.clouddn.com/de13315600ba1cff.jpg");
+        sUrls.add("http://ac-QYgvX1CC.clouddn.com/de13315600ba1cff.jpg");
         sUrls.add("http://ac-QYgvX1CC.clouddn.com/ad99de83e1e3f7d4.jpg");
         sUrls.add("http://ac-QYgvX1CC.clouddn.com/15c5c50e941ba6b0.jpg");
         sUrls.add("http://ac-QYgvX1CC.clouddn.com/eaf1c9d55c5f9afd.jpg");
