@@ -5,8 +5,10 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.database.Cursor;
+import android.support.multidex.MultiDex;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -14,10 +16,13 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import org.putegg.app.PhotoEgg.R;
+import org.putegg.app.PhotoEgg.file.fileman;
 import org.putegg.app.PhotoEgg.photo.ZoomMediaLoader;
 import org.putegg.app.PhotoEgg.photo.TestImageLoader;
+import org.putegg.app.PhotoEgg.rec.RecycleViewActivity;
 
 import java.io.File;
+import java.io.IOException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
@@ -37,7 +42,7 @@ public class login extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        ZoomMediaLoader.getInstance().init(new TestImageLoader());
         //初始缓存类
         SharedPreferences mysharedPreferences = getSharedPreferences(my_prefs,0);
         Editor editor = mysharedPreferences.edit();
@@ -187,7 +192,7 @@ public class login extends AppCompatActivity {
                     stopManagingCursor(theUser);
                     theUser.close();
                     nowUser = thisuser;
-                    Intent i = new Intent(v.getContext(),hub.class);
+                    Intent i = new Intent(v.getContext(), org.putegg.app.PhotoEgg.rec.RecycleViewActivity.class);
                     startActivity(i);
             }
             else{

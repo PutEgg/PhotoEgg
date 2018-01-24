@@ -4,21 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/ojbk"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ojbk"
-        android:textSize="36sp"
-        tools:layout_editor_absoluteX="163dp"
-        tools:layout_editor_absoluteY="246dp" />
+        <TextView
+            android:id="@+id/ojbk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/go"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="66dp"
+            android:text="ojbk"
+            android:textSize="36sp" />
 
-    <Button
-        android:id="@+id/go"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="332dp" />
+        <Button
+            android:id="@+id/go"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="170dp"
+            android:text="Button" />
+
+    </RelativeLayout>
+
 </android.support.constraint.ConstraintLayout>

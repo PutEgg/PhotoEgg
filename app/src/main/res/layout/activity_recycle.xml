@@ -9,9 +9,26 @@
     <android.support.v7.widget.Toolbar
         android:layout_width="match_parent"
         android:background="@color/colorPrimary"
-        app:title="RecycleView"
+        app:title="@string/app_name"
         app:titleTextColor="@android:color/white"
         android:layout_height="?attr/actionBarSize"/>
+
+    <Button
+        android:id="@+id/addimg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加图片" />
+
+    <TextView
+        android:id="@+id/noimg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="还没有图片！"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:visibility="gone" />
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"

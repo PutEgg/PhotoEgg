@@ -1,5 +1,11 @@
 <resources>
-    <string name="app_name">ImagePreviewLibrary</string>
+    <string name="app_name">PhotoEgg</string>
+    <string name="user"></string>
     <dimen name="yms_dimens_50.0_px">25.0dp</dimen>
     <string name="string_count">%1$s/%2$s</string>
+    <string name="photos_num">%1$d张</string>
+    <string name="msg_no_camera">没找到摄像头</string>
+    <string name="msg_maxi_capacity">已达到照片选择上限</string>
+    <string name="commit">确定</string>
+    <string name="commit_num">确定(%1$d/%2$d)</string>
 </resources>

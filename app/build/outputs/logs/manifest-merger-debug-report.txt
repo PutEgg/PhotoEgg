@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:2:1-69:12
+ADDED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:2:1-81:12
 MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\BaseRecyclerViewAdapterHelper-2.9.30.aar\4f84432d2f6717c921ad56ea3d21cf95\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\57df7b1d29b1eb97d96c2307ea2d8893\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\222de888e6b33ff6ee12e79ac933d47f\AndroidManifest.xml:17:1-31:12
@@ -13,6 +13,7 @@ MERGED from [:ImagePreview] C:\Users\hp\AndroidStudioProjects\PhotoEgg\ImagePrev
 MERGED from [com.ycjiang:ImagePreview:2.0.4] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\ImagePreview-2.0.4.aar\58963d47d664138640296942f43acdcf\AndroidManifest.xml:2:1-19:12
 MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\486414ee3832d80c8562e310f53e13ce\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\5c9efc2f7561de15b21f0219c5f346ea\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\multidex-1.0.1.aar\2924130f9a46e3945a84a9e9c6907355\AndroidManifest.xml:16:1-19:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\ea33d74d44ac033952fe07066dcbf469\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\4d9b7aa2b1051ab63039ccd2f296d6d1\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\170760af6c97e1ba10f9a7e910c41c8d\AndroidManifest.xml:17:1-28:12
@@ -21,22 +22,22 @@ MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\hp\.gradle\cac
 MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\fed67bbe6bcbd6c912dd866f4e11d95d\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\1009ad0f4bafbfa2dca6fbd7e892bd97\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\38e47e20f0174b98383c30ac5fb01464\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:2:1-81:12
 	package
 		ADDED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:4:5-38
 		INJECTED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:2:1-69:12
+		ADDED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:2:1-81:12
 		INJECTED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:2:1-69:12
+		ADDED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:2:1-81:12
 		INJECTED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:2:11-69
@@ -57,7 +58,7 @@ ADDED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManife
 	android:name
 		ADDED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:8:22-64
 application
-ADDED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:9:5-67:19
+ADDED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:9:5-79:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\57df7b1d29b1eb97d96c2307ea2d8893\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\57df7b1d29b1eb97d96c2307ea2d8893\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\222de888e6b33ff6ee12e79ac933d47f\AndroidManifest.xml:25:5-29:19
@@ -107,7 +108,7 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\hp\.gradle\caches\tr
 	tools:replace
 		ADDED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:11:9-38
 	android:name
-		ADDED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:10:9-33
+		ADDED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:10:9-36
 activity#org.putegg.app.PhotoEgg.view.login
 ADDED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:20:9-26:20
 	android:name
@@ -156,6 +157,18 @@ activity#org.putegg.app.PhotoEgg.photo.GPreviewActivity
 ADDED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:57:9-63:20
 	android:name
 		ADDED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:57:19-80
+activity#org.putegg.app.PhotoEgg.photopicker.PhotoPickerActivity
+ADDED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:66:9-69:15
+	android:screenOrientation
+		ADDED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:68:13-49
+	android:theme
+		ADDED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:67:13-63
+	android:name
+		ADDED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:66:19-89
+activity#org.putegg.app.PhotoEgg.picker.MainActivity
+ADDED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:70:9-76:20
+	android:name
+		ADDED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml:70:19-77
 uses-sdk
 INJECTED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\hp\AndroidStudioProjects\PhotoEgg\app\src\main\AndroidManifest.xml
@@ -178,6 +191,8 @@ MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\hp\.gradle\ca
 MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\486414ee3832d80c8562e310f53e13ce\AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\5c9efc2f7561de15b21f0219c5f346ea\AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\5c9efc2f7561de15b21f0219c5f346ea\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\multidex-1.0.1.aar\2924130f9a46e3945a84a9e9c6907355\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\multidex-1.0.1.aar\2924130f9a46e3945a84a9e9c6907355\AndroidManifest.xml:18:5-42
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\ea33d74d44ac033952fe07066dcbf469\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\ea33d74d44ac033952fe07066dcbf469\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\4d9b7aa2b1051ab63039ccd2f296d6d1\AndroidManifest.xml:20:5-44

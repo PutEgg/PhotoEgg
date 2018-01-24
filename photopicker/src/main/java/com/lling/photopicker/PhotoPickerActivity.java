@@ -210,8 +210,8 @@ public class PhotoPickerActivity extends Activity implements PhotoAdapter.PhotoC
         List<String> list = mPhotoAdapter.getmSelectedPhotos();
         if(list != null && list.size()>0) {
             mCommitBtn.setEnabled(true);
-            mCommitBtn.setText(OtherUtils.formatResourceString(getApplicationContext(),
-                    R.string.commit_num, list.size(), mMaxNum));
+            mCommitBtn.setText(R.string.commit);
+            //mCommitBtn.setText(OtherUtils.formatResourceString(getApplicationContext(),R.string.commit_num, list.size(), mMaxNum));
         } else {
             mCommitBtn.setEnabled(false);
             mCommitBtn.setText(R.string.commit);

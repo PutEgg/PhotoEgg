@@ -25,7 +25,7 @@ public class MyBaseQuickAdapter extends BaseQuickAdapter<UserViewInfo,BaseViewHo
     }
 
     @Override
-    protected void convert(BaseViewHolder helper, UserViewInfo item) {
+    protected void convert(BaseViewHolder helper,UserViewInfo item) {
         final ImageView thumbView = helper.getView(R.id.iv);
         Glide.with(context)
                 .load(item.getUrl())
